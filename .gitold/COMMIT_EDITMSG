@@ -1,0 +1,51 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#	renamed:    yo.xcodeproj/project.pbxproj -> CSIRONotify.xcodeproj/project.pbxproj
+#	renamed:    yo.xcodeproj/project.xcworkspace/contents.xcworkspacedata -> CSIRONotify.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+#	new file:   CSIRONotify.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist
+#	renamed:    yo.xcodeproj/project.xcworkspace/xcuserdata/admin.xcuserdatad/UserInterfaceState.xcuserstate -> CSIRONotify.xcodeproj/project.xcworkspace/xcuserdata/admin.xcuserdatad/UserInterfaceState.xcuserstate
+#	new file:   CSIRONotify.xcodeproj/project.xcworkspace/xcuserdata/rea094.xcuserdatad/UserInterfaceState.xcuserstate
+#	renamed:    yo.xcodeproj/project.xcworkspace/xcuserdata/shcrai.xcuserdatad/UserInterfaceState.xcuserstate -> CSIRONotify.xcodeproj/project.xcworkspace/xcuserdata/shcrai.xcuserdatad/UserInterfaceState.xcuserstate
+#	renamed:    yo.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/xcschememanagement.plist -> CSIRONotify.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/xcschememanagement.plist
+#	renamed:    yo.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/yo.xcscheme -> CSIRONotify.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/yo.xcscheme
+#	renamed:    yo.xcodeproj/xcuserdata/shcrai.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist -> CSIRONotify.xcodeproj/xcuserdata/shcrai.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist
+#	renamed:    yo.xcodeproj/xcuserdata/shcrai.xcuserdatad/xcschemes/xcschememanagement.plist -> CSIRONotify.xcodeproj/xcuserdata/shcrai.xcuserdatad/xcschemes/xcschememanagement.plist
+#	deleted:    yo.xcodeproj/xcshareddata/xcschemes/yo.xcscheme
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_1024.png
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_128.png
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_256-1.png
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_256.png
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_32-1.png
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_32-2.png
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_32.png
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_512-1.png
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_512.png
+#	new file:   yo/Images.xcassets/AppIcon.appiconset/CSIRO_Grad_64.png
+#	modified:   yo/Images.xcassets/AppIcon.appiconset/Contents.json
+#	deleted:    yo/Images.xcassets/AppIcon.appiconset/yo-128.png
+#	new file:   yo/yo.entitlements
+#
+# Changes not staged for commit:
+#	modified:   CSIRONotify.xcodeproj/project.pbxproj
+#	modified:   CSIRONotify.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+#	modified:   CSIRONotify.xcodeproj/project.xcworkspace/xcuserdata/rea094.xcuserdatad/UserInterfaceState.xcuserstate
+#	modified:   yo/AppDelegate.swift
+#	modified:   yo/Base.lproj/MainMenu.xib
+#	modified:   yo/CommandLine.swift
+#	modified:   yo/Info.plist
+#	modified:   yo/Option.swift
+#	modified:   yo/StringExtensions.swift
+#	modified:   yo/YoCommandLine.swift
+#	modified:   yo/YoNotification.swift
+#
+# Untracked files:
+#	CSIRONotify.xcodeproj/xcshareddata/
+#	CSIRONotify.xcodeproj/xcuserdata/rea094.xcuserdatad/
+#	yo/nag/
+#
