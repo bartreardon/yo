@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "841717911ABCA0CE00150A32"
-               BuildableName = "CSIRONotify.app"
-               BlueprintName = "CSIRONotify"
-               ReferencedContainer = "container:CSIRONotify.xcodeproj">
+               BlueprintIdentifier = "41D1E59422F015320085FE29"
+               BuildableName = "YoAlert.app"
+               BlueprintName = "YoAlert"
+               ReferencedContainer = "container:YoNotify.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,24 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "841717A11ABCA0CE00150A32"
-               BuildableName = "CSIRONotifyTests.xctest"
-               BlueprintName = "CSIRONotifyTests"
-               ReferencedContainer = "container:CSIRONotify.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "841717911ABCA0CE00150A32"
-            BuildableName = "CSIRONotify.app"
-            BlueprintName = "CSIRONotify"
-            ReferencedContainer = "container:CSIRONotify.xcodeproj">
+            BlueprintIdentifier = "41D1E59422F015320085FE29"
+            BuildableName = "YoAlert.app"
+            BlueprintName = "YoAlert"
+            ReferencedContainer = "container:YoNotify.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -65,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "841717911ABCA0CE00150A32"
-            BuildableName = "CSIRONotify.app"
-            BlueprintName = "CSIRONotify"
-            ReferencedContainer = "container:CSIRONotify.xcodeproj">
+            BlueprintIdentifier = "41D1E59422F015320085FE29"
+            BuildableName = "YoAlert.app"
+            BlueprintName = "YoAlert"
+            ReferencedContainer = "container:YoNotify.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -84,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "841717911ABCA0CE00150A32"
-            BuildableName = "CSIRONotify.app"
-            BlueprintName = "CSIRONotify"
-            ReferencedContainer = "container:CSIRONotify.xcodeproj">
+            BlueprintIdentifier = "41D1E59422F015320085FE29"
+            BuildableName = "YoAlert.app"
+            BlueprintName = "YoAlert"
+            ReferencedContainer = "container:YoNotify.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

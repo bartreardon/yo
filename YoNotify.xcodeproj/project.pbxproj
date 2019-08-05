@@ -73,13 +73,13 @@
 
 /* Begin PBXFileReference section */
 		417D5A2022E863660011B6C5 /* yo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yo.entitlements; sourceTree = "<group>"; };
-		41D1E5A922F015320085FE29 /* CSIROAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSIROAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41D1E5A922F015320085FE29 /* YoAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41D1E5AA22F015760085FE29 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = nag/Info.plist; sourceTree = "<group>"; };
-		841717921ABCA0CE00150A32 /* CSIRONotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSIRONotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841717921ABCA0CE00150A32 /* YoNotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoNotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841717961ABCA0CE00150A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841717991ABCA0CE00150A32 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8417179C1ABCA0CE00150A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		841717A21ABCA0CE00150A32 /* CSIRONotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSIRONotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841717A21ABCA0CE00150A32 /* YoNotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YoNotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841717A71ABCA0CE00150A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		841717A81ABCA0CE00150A32 /* yoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yoTests.swift; sourceTree = "<group>"; };
 		841717B21ABCA11300150A32 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -150,9 +150,9 @@
 		841717931ABCA0CE00150A32 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				841717921ABCA0CE00150A32 /* CSIRONotify.app */,
-				841717A21ABCA0CE00150A32 /* CSIRONotifyTests.xctest */,
-				41D1E5A922F015320085FE29 /* CSIROAlert.app */,
+				841717921ABCA0CE00150A32 /* YoNotify.app */,
+				841717A21ABCA0CE00150A32 /* YoNotifyTests.xctest */,
+				41D1E5A922F015320085FE29 /* YoAlert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,9 +204,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		41D1E59422F015320085FE29 /* CSIROAlert */ = {
+		41D1E59422F015320085FE29 /* YoAlert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 41D1E5A622F015320085FE29 /* Build configuration list for PBXNativeTarget "CSIROAlert" */;
+			buildConfigurationList = 41D1E5A622F015320085FE29 /* Build configuration list for PBXNativeTarget "YoAlert" */;
 			buildPhases = (
 				41D1E59522F015320085FE29 /* Sources */,
 				41D1E59E22F015320085FE29 /* Frameworks */,
@@ -217,14 +217,14 @@
 			);
 			dependencies = (
 			);
-			name = CSIROAlert;
+			name = YoAlert;
 			productName = yo;
-			productReference = 41D1E5A922F015320085FE29 /* CSIROAlert.app */;
+			productReference = 41D1E5A922F015320085FE29 /* YoAlert.app */;
 			productType = "com.apple.product-type.application";
 		};
-		841717911ABCA0CE00150A32 /* CSIRONotify */ = {
+		841717911ABCA0CE00150A32 /* YoNotify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841717AC1ABCA0CE00150A32 /* Build configuration list for PBXNativeTarget "CSIRONotify" */;
+			buildConfigurationList = 841717AC1ABCA0CE00150A32 /* Build configuration list for PBXNativeTarget "YoNotify" */;
 			buildPhases = (
 				8417178E1ABCA0CE00150A32 /* Sources */,
 				8417178F1ABCA0CE00150A32 /* Frameworks */,
@@ -235,14 +235,14 @@
 			);
 			dependencies = (
 			);
-			name = CSIRONotify;
+			name = YoNotify;
 			productName = yo;
-			productReference = 841717921ABCA0CE00150A32 /* CSIRONotify.app */;
+			productReference = 841717921ABCA0CE00150A32 /* YoNotify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		841717A11ABCA0CE00150A32 /* CSIRONotifyTests */ = {
+		841717A11ABCA0CE00150A32 /* YoNotifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841717AF1ABCA0CE00150A32 /* Build configuration list for PBXNativeTarget "CSIRONotifyTests" */;
+			buildConfigurationList = 841717AF1ABCA0CE00150A32 /* Build configuration list for PBXNativeTarget "YoNotifyTests" */;
 			buildPhases = (
 				8417179E1ABCA0CE00150A32 /* Sources */,
 				8417179F1ABCA0CE00150A32 /* Frameworks */,
@@ -253,9 +253,9 @@
 			dependencies = (
 				841717A41ABCA0CE00150A32 /* PBXTargetDependency */,
 			);
-			name = CSIRONotifyTests;
+			name = YoNotifyTests;
 			productName = yoTests;
-			productReference = 841717A21ABCA0CE00150A32 /* CSIRONotifyTests.xctest */;
+			productReference = 841717A21ABCA0CE00150A32 /* YoNotifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -274,9 +274,8 @@
 					};
 					841717911ABCA0CE00150A32 = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = TA2HL4Y2TY;
 						LastSwiftMigration = 1020;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.HardenedRuntime = {
 								enabled = 1;
@@ -290,7 +289,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8417178D1ABCA0CE00150A32 /* Build configuration list for PBXProject "CSIRONotify" */;
+			buildConfigurationList = 8417178D1ABCA0CE00150A32 /* Build configuration list for PBXProject "YoNotify" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -303,9 +302,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				841717911ABCA0CE00150A32 /* CSIRONotify */,
-				841717A11ABCA0CE00150A32 /* CSIRONotifyTests */,
-				41D1E59422F015320085FE29 /* CSIROAlert */,
+				841717911ABCA0CE00150A32 /* YoNotify */,
+				841717A11ABCA0CE00150A32 /* YoNotifyTests */,
+				41D1E59422F015320085FE29 /* YoAlert */,
 			);
 		};
 /* End PBXProject section */
@@ -390,7 +389,7 @@
 /* Begin PBXTargetDependency section */
 		841717A41ABCA0CE00150A32 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 841717911ABCA0CE00150A32 /* CSIRONotify */;
+			target = 841717911ABCA0CE00150A32 /* YoNotify */;
 			targetProxy = 841717A31ABCA0CE00150A32 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -422,7 +421,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/yo/nag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = au.csiro.alert;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.sheagcraig.yo-alert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -444,7 +443,7 @@
 				);
 				INFOPLIST_FILE = "$(SRCROOT)/yo/nag/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = au.csiro.alert;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.sheagcraig.yo-alert";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -559,9 +558,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TA2HL4Y2TY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -569,7 +568,7 @@
 				);
 				INFOPLIST_FILE = yo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = au.csiro.notify;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.sheagcraig.yo-notify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -581,9 +580,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = TA2HL4Y2TY;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -591,7 +590,7 @@
 				);
 				INFOPLIST_FILE = yo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = au.csiro.notify;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.sheagcraig.yo-notify";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -616,7 +615,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sas.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSIRONotify.app/Contents/MacOS/CSIRONotify";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoNotify.app/Contents/MacOS/YoNotify";
 			};
 			name = Debug;
 		};
@@ -634,14 +633,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sas.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CSIRONotify.app/Contents/MacOS/CSIRONotify";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YoNotify.app/Contents/MacOS/YoNotify";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		41D1E5A622F015320085FE29 /* Build configuration list for PBXNativeTarget "CSIROAlert" */ = {
+		41D1E5A622F015320085FE29 /* Build configuration list for PBXNativeTarget "YoAlert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				41D1E5A722F015320085FE29 /* Debug */,
@@ -650,7 +649,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8417178D1ABCA0CE00150A32 /* Build configuration list for PBXProject "CSIRONotify" */ = {
+		8417178D1ABCA0CE00150A32 /* Build configuration list for PBXProject "YoNotify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841717AA1ABCA0CE00150A32 /* Debug */,
@@ -659,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841717AC1ABCA0CE00150A32 /* Build configuration list for PBXNativeTarget "CSIRONotify" */ = {
+		841717AC1ABCA0CE00150A32 /* Build configuration list for PBXNativeTarget "YoNotify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841717AD1ABCA0CE00150A32 /* Debug */,
@@ -668,7 +667,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841717AF1ABCA0CE00150A32 /* Build configuration list for PBXNativeTarget "CSIRONotifyTests" */ = {
+		841717AF1ABCA0CE00150A32 /* Build configuration list for PBXNativeTarget "YoNotifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				841717B01ABCA0CE00150A32 /* Debug */,
