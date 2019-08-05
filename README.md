@@ -1,5 +1,13 @@
 # Yo: Custom User Notifications with Swift
 
+## Changes in this particular version
+This isn't intended to be merged into the main branch but in the interests of sharing modified code here it is:
+
+Main changes which I use for my own environment:
+ - Updated to swift 5 (did this before checking the testing branch - oh well)
+ - Added a second target so we have a binary that does alert style and a binary that does notification style. AFAIK you can only have one notification style per app. I'm sure we can bundle this together into one app but for now it'll do
+ - Changed the command line options to make yo callable from JamJAR. re-used the unusable "-m" flag and a couple of other changes. 
+
 ## Overview
 ![Yo example](https://github.com/sheagcraig/yo/blob/testing/docs/example.png?raw=true)
 
